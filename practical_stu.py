@@ -43,6 +43,9 @@ def is_palidrome(a_list):
 Recursion
 
 Write a function that recursively computes the gcd of two numbers given as parameters. Then, write at least one test function to test your gcd function.
+Use the definition that if num1 = num2 then the answer if num1
+If num1 > num2 then the answer if the GCD of num1 - num2 and num2
+If num2 > num2 then the answer is the GCD of num1 and num2 - num1
 """
 def gcd(num1, num2):
     return None
